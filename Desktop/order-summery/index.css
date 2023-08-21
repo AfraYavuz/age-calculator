@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  background-color: #d6e8ff;
+}
+.background {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.card {
+  width: 80%;
+  max-width: 400px;
+  height: 600px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  border-radius: 20px 20px 20px 20px;
+}
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 407px;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+.card-content {
+  padding: 20px;
+  position: absolute;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: -106px;
+}
+
+.card-content h3 {
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.card-content h5 {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+}
+.plan-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.5em 1.5em 1.5em;
+  padding: 1em;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.plan-box-left {
+  display: flex;
+}
+
+.plan-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.2em;
+  gap: 0.2em;
+  text-align: left;
+  font-size: 0.7rem;
+}
+
+.plan-details h3 {
+  font-size: 0.9rem;
+}
+
+.plan-details p {
+  font-size: 0.8rem;
+}
+
+.plan-box-right a {
+  font-weight: 700;
+  font-size: 0.8rem;
+  opacity: 1;
+}
+
+.plan-box-right a:hover {
+  opacity: 0.8;
+}
+.button {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  width: 78%; /*!!!!!?!!!!!*/
+  margin: 0 1.5em 1.5em 1.5em;
+  margin-top: 430px;
+}
+
+.payment-btn,
+.cancel-btn {
+  padding: 1em;
+  margin: 5px 0;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.payment-btn {
+  background-color: #9979eb;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.cancel-btn {
+  background-color: #fff;
+  color: black;
+  font-family: "Red Hat Display", sans-serif;
+}
